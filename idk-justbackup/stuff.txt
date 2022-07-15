@@ -1,0 +1,87 @@
+--Old vim configs for vscode vim--:
+"vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": false,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"], //if j+j is pressed, Esc will be the command.
+        "after": ["<Esc>"]
+      },
+      {
+        "before": ["h", "h"], //if j+j is pressed, Esc will be the command.
+        "after": ["<Esc>"]
+      },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      },
+      {
+        "before": ["ç"],
+        "after": ["l"]
+      },
+      {
+        "before": ["l"],
+        "after": ["k"]
+      },
+      {
+        "before": ["k"],
+        "after": ["j"]
+      },
+      {
+        "before": ["j"],
+        "after": ["h"]
+      },
+      {
+        "before": ["~"],
+        "after": [":"]
+      },
+      {
+        "before": ["h"],
+        "after": []
+      },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": ["ç"],
+        "after": ["l"]
+      },
+      {
+        "before": ["l"],
+        "after": ["k"]
+      },
+      {
+        "before": ["k"],
+        "after": ["j"]
+      },
+      {
+        "before": ["j"],
+        "after": ["h"]
+      },
+      {
+        "before": ["h"],
+        "after": []
+      },
+      {
+        "before": ["h", "h"], //if j+j is pressed, Esc will be the command.
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },

@@ -1,0 +1,58 @@
+{
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "terminal.explorerKind": "external",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark",
+    "python.analysis.autoImportCompletions": false,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "todo-tree.tree.buttons.scanMode": true,
+    "todo-tree.tree.buttons.export": true,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]",
+      "MARK"
+    ],
+    "todo-tree.highlights.customHighlight": {
+      "BUG": {
+        "icon": "bug"
+      },
+      "HACK": {
+        "icon": "tools"
+      },
+      "FIXME": {
+        "icon": "flame"
+      },
+      "XXX": {
+        "icon": "$(close)"
+      },
+      "MARK": {
+        "foreground": "#3c0fcf",
+        "background": "#23b010",
+        "type": "tag",
+        "icon": "bookmark"
+      }
+    },
+    "liveServer.settings.useLocalIp": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "VSCodeCounter.history": 0,
+    "window.zoomLevel": 2,
+    "[markdown]": {
+    "editor.suggest.showSnippets": true,
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    }
+    }
+}

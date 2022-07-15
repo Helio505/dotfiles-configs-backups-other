@@ -1,0 +1,97 @@
+{
+"h1": {
+    "prefix": "h1",
+    "body": [
+        "<h1>$1</h1>"
+    ],
+    "description": "h1"
+},
+
+"h2": {
+    "prefix": "h2",
+    "body": [
+        "<h2>$1</h2>"
+    ],
+    "description": "h2"
+},
+
+"h3": {
+    "prefix": "h3",
+    "body": [
+        "<h3>$1</h3>"
+    ],
+    "description": "h3"
+},
+
+"h4": {
+    "prefix": "h4",
+    "body": [
+        "<h4>$1</h4>"
+    ],
+    "description": "h4"
+},
+
+"h5": {
+    "prefix": "h5",
+    "body": [
+        "<h5>$1</h5>"
+    ],
+    "description": "h5"
+},
+
+"h6": {
+    "prefix": "h6",
+    "body": [
+        "<h6>$1</h6>"
+    ],
+    "description": "h6"
+},
+
+"p": {
+    "prefix": "p",
+    "body": [
+        "<p>$1</p>"
+    ],
+    "description": "p"
+},
+
+"code": {
+    "prefix": "code",
+    "body": [
+        "<code>$1</code>"
+    ],
+    "description": "code"
+},
+
+"line break br": {
+    "prefix": "br",
+    "body": [
+        "<br />"
+    ],
+    "description": "br"
+},
+
+"strong": {
+    "prefix": "strong",
+    "body": [
+        "<strong>$1</strong>"
+    ],
+    "description": "strong"
+},
+
+"img": {
+    "prefix": "img",
+    "body": [
+        "<img $1/>"
+    ],
+    "description": "img"
+},
+
+"src": {
+    "prefix": "src",
+    "body": [
+        "src=\"$1\""
+    ],
+    "description": "img"
+}
+}
